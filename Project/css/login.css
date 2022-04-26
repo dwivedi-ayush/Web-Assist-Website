@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto:ital,wght@0,400;1,300&display=swap");
+
+body {
+  margin: 0;
+  background-image: url("../images/login_background_img.svg");
+  background-color: #0f1320;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+}
+
+.card {
+  display:flex;
+  flex-direction:column;
+  justify-items: center;
+
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+
+  color: #ffffff;
+  background-color: #171b29;
+  border-radius: 25px;
+  width: 350px;
+  height: 410px;
+}
+
+.card {
+  padding: 5px 20px;
+}
+
+.card img {
+  height:30%;
+  width:auto;
+  margin:0.5em auto;
+}
+
+.card p {
+  margin-bottom: 10px;
+  /* transform: translateY(-80px); */
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(153, 153, 153, 0.2);
+  transform: translate3d(0, -0.3rem, 0) scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.info {
+  margin:0.5em auto;
+  /* transform: translateY(-220px); */
+}
+.login{
+  margin:0.5em auto;
+}
+.login_forebackground {
+  position: absolute;
+  z-index: -1;
+}
+
+/* Headings  */
+.heading {
+  font-family: "ABeeZee", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 105px;
+  line-height: 54px;
+  /* identical to box height, or 51% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.info {
+  font-family: "ABeeZee", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.Admin_login {
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+
+  text-decoration-line: underline;
+
+  color: #22a75d;
+}
+
+.Student_login {
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+
+  text-decoration-line: underline;
+
+  color: #ffd100;
+}
+
+.Faculty_login {
+  font-family: "ABeeZee", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+
+  text-decoration-line: underline;
+
+  color: #2278d4;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+}

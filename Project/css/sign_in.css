@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+body {
+  margin: 0;
+  background-image: url("../images/sign_in_background_img.svg");
+  background-color: #0f1320;
+}
+
+.vdoc_logo {
+  display: flex;
+  margin: 50px;
+}
+
+.sign_in_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_in_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  color: #fff;
+  transform: translateY(-100px);
+}
+
+.heading {
+  font-family: "ABeeZee", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 105px;
+  line-height: 54px;
+  /* identical to box height, or 51% */
+
+  text-align: center;
+
+  color: #ffffff;
+  transform: translateY(-120px);
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #608a99;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.username {
+  width: 25vw;
+}
+
+.password {
+  width: 25vw;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+.show_password {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: start;
+  margin-bottom: 15px;
+  color: #ffffff;
+  display: flex;
+}
+
+.forgot {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.forgot_password {
+  transform: translateX(80px);
+  margin: 0;
+  color: #20df7f;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  margin-right: 15px;
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  border-radius: 3px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #608a99;
+  border: 1px solid #adb8c0;
+  color: #99a1a7;
+}
+
+.btn {
+  width: 26.5vw;
+  font-family: "ABeeZee", sans-serif !important;
+  transform: translateY(-50px);
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Alata;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #22a75d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(153, 153, 153, 0.2);
+  transform: translate3d(0, -52px, 0) scale(1.03);
+  transition: all 0.5s ease;
+  background: #22a75d;
+  background-image: -webkit-linear-gradient(top, #22a75d, #0a6b2f);
+  background-image: -moz-linear-gradient(top, #22a75d, #0a6b2f);
+  background-image: -ms-linear-gradient(top, #22a75d, #0a6b2f);
+  background-image: -o-linear-gradient(top, #22a75d, #0a6b2f);
+  background-image: linear-gradient(to bottom, #22a75d, #0a6b2f);
+  text-decoration: none;
+}
